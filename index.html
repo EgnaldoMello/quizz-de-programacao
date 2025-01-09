@@ -8,9 +8,10 @@
 </head>
 <body>
     <h1 id="main-title">Quizz de programação</h1>
-    <div id="score-container">
+    <div id="score-container" class="hide">
+        <h2>PARABÉNS</h2>
         <p id="display-score"><span>x</span>%</p>
-        <p>Você acertou <span id="correct-answer">0</span> de <span id="questions-qty">10</span> perguntas</p>
+        <p>Você acertou <span id="correct-answers">0</span> de <span id="questions-qty">10</span> perguntas</p>
         <button id="restart">REFAZER QUIZZ</button>
     </div>
     <div id="quizz-container">
@@ -18,10 +19,10 @@
             <span id="question-number">1</span> - <span id="question-text"></span>
         </p>
         <div id="answers-box">
-            <button class="correct-answer"><span class="btn-letter">a</span> <span class="question-answer"></span></button>
-            <button class="wrong-answer"><span class="btn-letter">b</span> <span class="question-answer"></span></button>
-            <button class="wrong-answer"><span class="btn-letter">c</span> <span class="question-answer"></span></button>
-            <button class="wrong-answer"><span class="btn-letter">d</span> <span class="question-answer"></span></button>
+            <button><span class="btn-letter">a</span> <span class="question-answer"></span></button>
+            <button><span class="btn-letter">b</span> <span class="question-answer"></span></button>
+            <button><span class="btn-letter">c</span> <span class="question-answer"></span></button>
+            <button><span class="btn-letter">d</span> <span class="question-answer"></span></button>
         </div>
     </div>
     <button class="answer-template hide">
